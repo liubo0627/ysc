@@ -1,0 +1,132 @@
+*{margin:0;padding:0;}
+html{width:100%;height:100%;font-size:625%;}
+body{font-size:.16rem;background:#ededed;}
+a{text-decoration:none;}
+ul,li{list-style: none;}
+/*------------------------iconfont图标--------------------------*/
+/*
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}*/
+/*------------------------iconfont图标结束--------------------------*/
+
+
+/*-------------头部开始----------------------------------------*/
+.g-header-wrap{width:100%;height:.45rem;background:orange;position:relative;}
+.g-header{width:100%;height:.45rem;display:flex;justify-content:space-between;align-items: center;position:fixed;top:0;left:0;background:orange;z-index:2;}
+.g-header .icon1{font-size:.3rem;color:white;}
+.g-header input{flex:1;height:.3rem;margin:0 .1rem;padding-left:.3rem;font-size:.16rem;outline:none;border:none;}
+.g-header-right{width:.4rem;height:.4rem;}
+.g-header-right i{font-size:.2rem;color:white;}
+.g-header-right p{font-size:.12rem;color:white;}
+
+.find{position:absolute;left:13%;top:25%;font-size:.2rem;}
+/*-------------头部结束----------------------------------------*/
+
+
+/*-------------banner开始----------------------------------------*/
+.mint-swipe{width:100%;;height:2rem;background:green;}
+
+.mint-swipe-indicators{position:absolute;left:.4rem;}
+
+.g-banner img{width:100%;height:2rem;}
+
+/*-------------banner开始----------------------------------------*/
+
+
+/*-------------nav开始----------------------------------------*/
+.g-nav{width:100%;height:1.7rem;background:#ededed;}
+.g-nav ul{background:white;height:1.6rem;}
+.g-nav ul li{width:25%;height:.8rem;box-sizing:border-box;float:left;}
+.g-nav ul li a{width:100%;display:block;height:.8rem;display:flex;flex-direction: column;justify-content:center;align-items: center;}
+.font-wrap{width:.4rem;height:.4rem;border-radius:20%;background:orange;display:flex;justify-content: center;align-items:center;}
+.g-nav ul li i{font-size:.2rem;color:white;}
+.g-nav ul li p{font-size:.14rem;color:#232323;margin-top:.1rem;}
+/*-------------nav结束----------------------------------------*/
+
+
+/*----------------section开始------------------------------------*/
+.g-section-wrap{background:white;}
+.g-section-top{width:100%;height:.4rem;border-bottom:1px solid #ededed;}
+.g-section{width:96%;height:.4rem;margin:0 auto;display:flex;justify-content:space-between;align-items:center;}
+.g-section-left{display:flex;justify-content: center;align-items:center;}
+
+.section-icon-wrap{width:.25rem;height:.25rem;margin-right:.1rem;display:flex;justify-content: center;align-items: center;background:orange;}
+.g-section-left p{font-size:.16rem;color:black;}
+
+.g-section-right{font-size:.12rem;color:#666;}
+.g-section-content ul{margin-top:.1rem;}
+.g-section-content ul li{width:25%;height:1.2rem;float:left;border-right:1px solid #ededed;box-sizing: border-box;display:flex;justify-content:center;flex-direction:column;align-items: center;}
+.g-section-content ul li img{width:80%;height:.6rem;}
+.g-section-content ul li p{font-size:.14rem;}
+.g-section-content ul li p:nth-of-type(2){color:red;}
+.g-section-content:after{ content:"";display:block;clear:both;}
+
+.g-cover{width:100%;height:.1rem;background:#ededed;}
+/*----------------section结束------------------------------------*/
+
+/*--------------------------------------favourable部分开始-------*/
+.g-favourable{background:white;}
+.g-favourable-content-wrap{font-size:.14rem;color:#666;}
+.g-favourable-content{width:96%;margin:0 auto;display:flex;justify-content:space-between;align-items: ceenter;}
+.g-favourable-content-left{flex:1;display:flex;flex-direction: column;justify-content: center;align-items:center;box-sizing: border-box;border-right:1px solid #ededed;padding:0 .1rem;}
+.g-favourable-content-left div:nth-of-type(1){width:100%;}
+.g-favourable-content-left div:nth-of-type(2){display:flex;justify-content:flex-end;}
+.g-favourable-content-left img{width:80%;height:.8rem;}
+
+.g-favourable-content-left span{font-size:.12rem;text-decoration:line-through;color:#666;}
+.g-favourable-content-right{flex:1;}
+.g-favourable-content-right .content-top{display:flex;justify-content:space-between;align-items:center;box-sizing:border-box;border-bottom:1px solid #ededed;padding:.1rem 0 .1rem .1rem;}
+.g-favourable-content-word{width:60%;height:1rem;}
+.content-top span{text-decoration: line-through;font-size:.12rem;color:#666;}
+.content-top p:nth-of-type(3){font-size:.16rem;color:red;}
+.g-favourable-content-left p:nth-of-type(3){font-size:.16rem;color:red;}
+
+/*--------------------------------------favourable部分结束-------*/
+
+/*--------------------------------aside部分开始-----------------*/
+.g-aside{width:100%;height:1.5rem;margin-top:.1rem;}
+.g-aside img{width:100%;height:1.5rem;}
+.g-aside-bottom{position:relative;height:.4rem;}
+.g-aside-bottom p{width:100%;height:.4rem;display:flex;justify-content: center;align-items:center;}
+.line-left,.line-right{position:absolute;width:.5rem;height:.04rem;background:#999;}
+.line-left{left:20%;top:.2rem;}
+.line-right{left:63%;top:.2rem;}
+/*-----------------------------------aside部分结束-----------------------*/
+
+
+/*-----------------------------------bottom部分结束-----------------------*/
+
+.g-bottom{width:96%;margin:0 auto;}
+.g-bottom ul li{float:left;margin:1% 1% 0 1%;display:flex;background:white;justify-content:center;align-items: center;flex-direction: column;width:48%;}
+.g-bottom ul li img{width:100%;min-height:1rem;display:block;}
+.g-bottom ul li p:nth-of-type(1){width:80%;height:0.4rem;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;}
+.g-bottom ul li p:nth-of-type(2){color:red;font-size:.16rem;}
+.g-bottom ul li p:nth-of-type(2) span{font-size:.12rem;}
+.g-bottom ul:after{content:"";display: block;clear:both;}
+.content{width:100%;height:.4rem;}
+/*-----------------------------------bottom部分结束-----------------------*/
+
+
+/*-----------------------------------footer部分开始-----------------------*/
+.g-footer-wrap{width:100%;height:.1rem;}
+.g-footer{width:100%;height:.55rem;display:flex;justify-content:space-around;background:white;position:fixed;bottom:0;left:0;}
+
+.g-footer-content a{color:#999;width:100%;height:.55rem;display:flex;justify-content:center;align-items: center;flex-direction: column;}
+
+
+
+/*-----------------------------------footer部分结束-----------------------*/
